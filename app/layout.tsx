@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
-import { Poppins, Lato } from 'next/font/google'
-import './globals.css'
+import { Lato, Poppins } from 'next/font/google'
 import Image from 'next/image'
-import Logo from '~/public/logos/logo-default.svg'
 import GitLabLogo from '~/public/logos/git-lab.svg'
+import Logo from '~/public/logos/logo-default.svg'
+import './globals.css'
 
 const poppins = Poppins({
   subsets: ['latin'],
