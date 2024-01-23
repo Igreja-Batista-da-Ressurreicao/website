@@ -1,4 +1,4 @@
-import { ComponentProps, FC, ReactNode, SVGProps } from 'react'
+import { ComponentProps, FC, SVGProps } from 'react'
 
 type IconProps = ComponentProps<'svg'> & {
   size?: 'sm' | 'md' | 'lg'
