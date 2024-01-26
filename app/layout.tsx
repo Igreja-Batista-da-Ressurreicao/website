@@ -1,7 +1,7 @@
 import './globals.css'
-import type { Metadata } from 'next'
-import { Lato, Poppins } from 'next/font/google'
-import { Header, Footer } from './_components'
+import type {Metadata} from 'next'
+import {Lato, Poppins} from 'next/font/google'
+import {Footer, Header} from './_components'
 
 const poppins = Poppins({
   subsets: ['latin'],

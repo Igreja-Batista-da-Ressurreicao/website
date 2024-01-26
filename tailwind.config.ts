@@ -12,6 +12,9 @@ const config: Config = {
         poppins: ['var(--font-poppins)'],
         lato: ['var(--font-lato)'],
       },
+      screens: {
+        xxl: '1440px'
+      }
     },
   },
   plugins: [],
