@@ -1,4 +1,4 @@
-import { CalendarComponent, IntroComponent } from './_features'
+import { CalendarComponent, IntroComponent, MediaComponent } from './_features'
 
 export default function Home() {
   return (
@@ -30,6 +30,10 @@ export default function Home() {
           event={[{ dateTime: 'Seg - Sex 19:30h', name: 'Culto de Oração' }]}
         />
       </CalendarComponent.Root>
+      <MediaComponent.Root>
+        <MediaComponent.Group />
+        <MediaComponent.Group />
+      </MediaComponent.Root>
     </main>
   )
 }

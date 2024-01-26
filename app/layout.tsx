@@ -1,7 +1,9 @@
 import './globals.css'
 import type {Metadata} from 'next'
 import {Lato, Poppins} from 'next/font/google'
-import {Footer, Header} from './_components'
+import {Footer} from './_components/footer'
+import {Header} from "~/app/_components/header";
+import {ReactNode} from "react";
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -25,7 +27,7 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: ReactNode
 }>) {
   return (
     <html lang='en' className={`${poppins.variable} ${lato.variable}`}>

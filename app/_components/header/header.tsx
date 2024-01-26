@@ -1,8 +1,9 @@
 import Image from 'next/image'
-import { ReactNode } from 'react'
+import {ReactNode} from 'react'
 import Logo from '~/public/logos/logo-default.svg'
 
-export default function Header(): ReactNode {
+export type HeaderProps = typeof Header
+export const Header = (): ReactNode => {
   return (
     <header className='w-full h-20 md:h-24 lg:h-32 flex flex-col justify-center items-center bg-zinc-950 ease-in-out transition-all'>
       <Image
