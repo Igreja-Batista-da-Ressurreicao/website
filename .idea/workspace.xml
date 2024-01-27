@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c9b661bc-e48f-42b4-ace5-ff0e57875568" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ibr-website.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_utils/cn.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_utils/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/icons/brands/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_features/media/group.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_features/media/group.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/icons/brands/Spotify.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/icons/brands/Spotify.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/icons/brands/Telegram.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/icons/brands/Telegram.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/icons/brands/WhatsApp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/icons/brands/WhatsApp.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/icons/brands/YouTube.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/icons/brands/YouTube.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/icons/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/icons/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,20 +32,28 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2bXfC4QTGaevle9rqln0tOMMs2W" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/ibr/website&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/ibr/website",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "E:\\ibr\\website\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -58,6 +74,7 @@
       <workItem from="1706366215693" duration="97000" />
       <workItem from="1706366323166" duration="15000" />
       <workItem from="1706366351816" duration="101000" />
+      <workItem from="1706366465171" duration="5500000" />
     </task>
     <servers />
   </component>

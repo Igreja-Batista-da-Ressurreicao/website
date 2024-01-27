@@ -17,10 +17,10 @@ const config: Config = {
       },
       colors:{
         brand: {
-          YouTube: '#E62117',
-          Spotify: '#20DF64',
-          WhatsApp: '#40C351',
-          Telegram: '#3FA9E0'
+          youtube: '#E62117',
+          spotify: '#20DF64',
+          whatsapp: '#40C351',
+          telegram: '#3FA9E0'
         }
       }
     },
