@@ -14,6 +14,14 @@ const config: Config = {
       },
       screens: {
         xxl: '1440px'
+      },
+      colors:{
+        brand: {
+          YouTube: '#E62117',
+          Spotify: '#20DF64',
+          WhatsApp: '#40C351',
+          Telegram: '#3FA9E0'
+        }
       }
     },
   },

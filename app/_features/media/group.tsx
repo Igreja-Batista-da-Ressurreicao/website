@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Worship from '~/public/images/worship-mock.png'
+import YouTubeLogo from '~/app/assets/icons/brands/YouTube'
 
 export const Group = () => {
   return (
