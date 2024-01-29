@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9b661bc-e48f-42b4-ace5-ff0e57875568" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/_utils/cn.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/_utils/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/icons/brands/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_features/media/elements/media-figure.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_features/media/group.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_features/media/group.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/icons/brands/Spotify.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/icons/brands/Spotify.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/icons/brands/Telegram.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/icons/brands/Telegram.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/icons/brands/WhatsApp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/icons/brands/WhatsApp.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/icons/brands/YouTube.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/icons/brands/YouTube.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/icons/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/icons/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_features/calendar/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_features/calendar/root.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_features/calendar/schedule.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_features/calendar/schedule.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_features/media/group.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_features/media/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/_features/media/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_features/media/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_features/media/root.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/listen-music-mock.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/listen-music-mock.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +42,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "jsx.switch.disabled": "true",
     "last_opened_file_path": "E:/ibr/website",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "E:\\ibr\\website\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -74,7 +74,8 @@
       <workItem from="1706366215693" duration="97000" />
       <workItem from="1706366323166" duration="15000" />
       <workItem from="1706366351816" duration="101000" />
-      <workItem from="1706366465171" duration="5500000" />
+      <workItem from="1706366465171" duration="5631000" />
+      <workItem from="1706529987952" duration="10533000" />
     </task>
     <servers />
   </component>

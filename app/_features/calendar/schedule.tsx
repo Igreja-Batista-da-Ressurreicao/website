@@ -15,7 +15,10 @@ export default function Schedule(props: ScheduleProps) {
       </p>
       {event.map(item => {
         return (
-          <p className='text-sm lg:text-base font-poppins font-regular text-zinc-300/70'>
+          <p
+            key={item.name}
+            className='text-sm lg:text-base font-poppins font-regular text-zinc-300/70'
+          >
             {item.dateTime} - {item.name}
           </p>
         )

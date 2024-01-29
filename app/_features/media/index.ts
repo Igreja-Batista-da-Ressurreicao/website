@@ -1,8 +1,8 @@
-import { Root } from './root'
-import { Group } from './group'
+import {Root} from './root'
+import {Figure} from "./figure";
 
 const Media = {
   Root,
-  Group,
+  Figure
 }
 export default Media

@@ -1,4 +1,7 @@
 import { CalendarComponent, IntroComponent, MediaComponent } from './_features'
+import { SpotifyIcon, YouTubeIcon } from '~icons/index'
+import YouTubeCover from '../public/images/worship-mock.png'
+import SpotifyCover from '../public/images/listen-music-mock.png'
 
 export default function Home() {
   return (
@@ -31,8 +34,18 @@ export default function Home() {
         />
       </CalendarComponent.Root>
       <MediaComponent.Root>
-        <MediaComponent.Group />
-        <MediaComponent.Group />
+        <MediaComponent.Figure
+          captionContent='Acompanhe as pregações no nosso canal do YouTube'
+          figureUrl={YouTubeCover}
+          mediaLink='https://www.youtube.com/@igrejabatistadaressurreica388'
+          icon={YouTubeIcon}
+        />
+        <MediaComponent.Figure
+          captionContent='Ouça nossa playlist no Spotify'
+          figureUrl={SpotifyCover}
+          mediaLink='https://open.spotify.com/show/476GhnzFkD6uIYSqtVmQAI?si=3be3a3208f8c4d49'
+          icon={SpotifyIcon}
+        />
       </MediaComponent.Root>
     </main>
   )
