@@ -1,13 +1,14 @@
-import { CalendarComponent, IntroComponent, MediaComponent } from './_features'
 import { SpotifyIcon, YouTubeIcon } from '~icons/index'
-import YouTubeCover from '../public/images/worship-mock.png'
 import SpotifyCover from '../public/images/listen-music-mock.png'
+import YouTubeCover from '../public/images/worship-mock.png'
+import { CalendarComponent, IntroComponent, MediaComponent } from './_features'
 
 export default function Home() {
   return (
     <main className='flex min-h-screen flex-col items-center'>
       <IntroComponent.Root>
         <IntroComponent.Greetings />
+
         <IntroComponent.Cover />
       </IntroComponent.Root>
       <CalendarComponent.Root>
