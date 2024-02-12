@@ -4,6 +4,7 @@ import YouTubeCover from '../public/images/worship-mock.png'
 import {
   BulletinComponent,
   CalendarComponent,
+  ContactComponent,
   DirectionComponent,
   IntroComponent,
   MediaComponent,
@@ -55,6 +56,7 @@ export default function Home() {
       </MediaComponent.Root>
       <BulletinComponent />
       <DirectionComponent />
+      <ContactComponent />
     </main>
   )
 }
