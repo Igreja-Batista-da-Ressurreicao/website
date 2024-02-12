@@ -1,12 +1,17 @@
-import {ComponentPropsWithRef, ElementType, forwardRef, SVGAttributes,} from 'react'
+import Image, { StaticImageData } from 'next/image'
 import Link from 'next/link'
-import Image, {StaticImageData} from 'next/image'
+import {
+  ComponentPropsWithRef,
+  ElementType,
+  SVGAttributes,
+  forwardRef,
+} from 'react'
 
 type FigureProps = ComponentPropsWithRef<'figure'> & {
   captionContent: string
   figureUrl: StaticImageData
   mediaLink: string
-  icon:  ElementType<SVGAttributes<SVGSVGElement>>
+  icon: ElementType<SVGAttributes<SVGSVGElement>>
 }
 
 type Ref = HTMLElement
@@ -19,9 +24,9 @@ export const Figure = forwardRef<Ref, FigureProps>((props, ref) => {
         <span className='text-center w-1/2 lg:w-full lg:mb-3'>
           {captionContent}
         </span>
-          <Link href={mediaLink} target='_blank' >
-            <Icon />
-          </Link>
+        <Link href={mediaLink} target='_blank'>
+          <Icon />
+        </Link>
       </figcaption>
       <Image
         src={figureUrl}

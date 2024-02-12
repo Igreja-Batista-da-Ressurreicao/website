@@ -1,6 +1,5 @@
 import { FC, SVGProps } from 'react'
 const CalendarIcon: FC<SVGProps<SVGSVGElement>> = props => {
-
   return (
     <svg
       role='img'

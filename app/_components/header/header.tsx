@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import {ReactNode} from 'react'
+import { ReactNode } from 'react'
 import Logo from '~/public/logos/logo-default.svg'
 
 export type HeaderProps = typeof Header

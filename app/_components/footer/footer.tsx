@@ -1,12 +1,12 @@
 import Image from 'next/image'
-import Logo from '~/public/logos/logo-default.svg'
-import GitLabLogo from '~/public/logos/git-lab.svg'
 import { ReactNode } from 'react'
+import GitLabLogo from '~/public/logos/git-lab.svg'
+import Logo from '~/public/logos/logo-default.svg'
 
 export type FooterProps = typeof Footer
 export const Footer = (): ReactNode => {
   return (
-    <footer className='w-full h-40 flex flex-col justify-start items-start bg-zinc-950 relative'>
+    <footer className='w-full h-40 flex flex-col justify-start items-start bg-zinc-950 relative mt-16'>
       <p className='text-zinc-200 font-lato font-semibold text-xs self-center mt-9'>
         Igreja Batista da Ressurreição{' '}
         <span className='font-light'>1996 - 2024</span>

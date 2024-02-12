@@ -1,5 +1,5 @@
-import {ReactNode} from 'react'
-import {Title} from '~/app/_components/elements'
+import { ReactNode } from 'react'
+import { Title } from '~/app/_components/elements'
 import PlayIcon from '~icons/filled/Play'
 
 export const Root = ({

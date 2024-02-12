@@ -1,5 +1,5 @@
+import { ButtonHTMLAttributes, ReactNode } from 'react'
 import ClickIcon from '~icons/filled/Click'
-import {ButtonHTMLAttributes, ReactNode} from 'react'
 
 type OrganizationsCalendarProps = ButtonHTMLAttributes<HTMLButtonElement>
 export default function OrganizationsCalendar(

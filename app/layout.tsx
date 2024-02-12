@@ -1,9 +1,9 @@
+import type { Metadata } from 'next'
+import { Lato, Poppins } from 'next/font/google'
+import { ReactNode } from 'react'
+import { Header } from '~/app/_components/header'
+import { Footer } from './_components/footer'
 import './globals.css'
-import type {Metadata} from 'next'
-import {Lato, Poppins} from 'next/font/google'
-import {Footer} from './_components/footer'
-import {Header} from "~/app/_components/header";
-import {ReactNode} from "react";
 
 const poppins = Poppins({
   subsets: ['latin'],

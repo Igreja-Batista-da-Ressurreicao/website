@@ -1,5 +1,5 @@
-import {SVGAttributes} from 'react'
-import {cn} from '~/app/_utils'
+import { SVGAttributes } from 'react'
+import { cn } from '~/app/_utils'
 
 export type YouTubeIconProps = SVGAttributes<SVGSVGElement> & {
   size?: 'sm' | 'md' | 'lg'
@@ -27,7 +27,10 @@ export const YouTubeIcon = (props: YouTubeIconProps) => {
       viewBox='0 0 55 38'
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
-      className={cn(`${sizeClasses[size]} ${variantClasses[variant]}`, className)}
+      className={cn(
+        `${sizeClasses[size]} ${variantClasses[variant]}`,
+        className
+      )}
       {...rest}
     >
       <path
