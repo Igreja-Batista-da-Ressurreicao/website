@@ -8,4 +8,4 @@ const Intro = {
   Root,
 }
 
-export default Intro
+export { Intro }

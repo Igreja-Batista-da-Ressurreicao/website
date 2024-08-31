@@ -1,12 +1,12 @@
 import { SpotifyIcon, YouTubeIcon } from '~icons/index'
 import SpotifyCover from '../public/images/listen-music-mock.png'
 import YouTubeCover from '../public/images/worship-mock.png'
+import { Intro as IntroComponent } from './_components/_molecules/intro'
 import {
   BulletinComponent,
   CalendarComponent,
   ContactComponent,
   DirectionComponent,
-  IntroComponent,
   MediaComponent,
 } from './_features'
 
